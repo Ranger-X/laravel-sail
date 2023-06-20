@@ -2,13 +2,14 @@
 
 namespace Laravel\Sail;
 
-use Illuminate\Contracts\Support\DeferrableProvider;
+// use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Sail\Console\AddCommand;
 use Laravel\Sail\Console\InstallCommand;
 use Laravel\Sail\Console\PublishCommand;
 
-class SailServiceProvider extends ServiceProvider implements DeferrableProvider
+class SailServiceProvider extends ServiceProvider 
+//    implements DeferrableProvider
 {
     /**
      * Bootstrap any application services.
